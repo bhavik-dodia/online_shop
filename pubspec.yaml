@@ -1,0 +1,35 @@
+name: online_shop
+description: A simple online shopping app
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^1.0.4
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^1.0.3
+  firebase_core: ^1.0.3
+  firebase_storage: ^8.0.3
+  google_fonts: ^2.0.0
+  google_sign_in: ^5.0.1
+  http: ^0.13.0
+  intl: ^0.17.0
+  numberpicker: ^2.1.1
+  provider: ^4.3.3
+  toast: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
